@@ -18,10 +18,10 @@
 <div class="jumbotron">
   <div class="container">
     <h1 class="text-center">Nested Category</h1>      
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    
     <div class="col-md-4">
     <div class="form-group">
-      <label  for="sel1">Category list:</label>
+      <label  for="sel1">Category </label>
       <select class="form-control category" id="sel1" name="category">
         <option>Select Category</option>
         @if($category->count()>0)
@@ -36,7 +36,7 @@
 
     <div class="col-md-4">
     <div class="form-group">
-      <label  for="sel1">Sub Category list:</label>
+      <label  for="sel1">Sub Category</label>
       <select class="form-control sub_category" id="sel1" name="subcategory_id">
         <option>Select Sub Category</option>
         
@@ -48,7 +48,7 @@
 
     <div class="col-md-4">
     <div class="form-group">
-      <label  for="sel1">Child Category list:</label>
+      <label  for="sel1">Child Category</label>
       <select class="form-control child_category" id="sel1" name="subcategory_id">
         <option>Select Child Category</option>
         

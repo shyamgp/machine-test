@@ -41,3 +41,28 @@ Route::post('/save/subcategory','SubCategoryController@store');
 Route::get('add/childcategory','ChildCategoryController@add');
 
 Route::post('/save/childcategory','ChildCategoryController@store');
+
+// add product
+
+Route::get('add/product','ProductController@add');
+
+Route::post('/save/product','ProductController@store');
+
+// show product list
+
+Route::get('show/product','ProductController@showProduct');
+
+
+
+// add Attribute
+
+Route::get('add/attribute','AttributeController@add');
+
+Route::post('/save/attribute','AttributeController@store');
+
+// add Attribute
+
+Route::get('add/specification','SpecificationController@add');
+
+Route::post('/save/specification','SpecificationController@store');
+Route::post('/show/attribute','SpecificationController@show');
